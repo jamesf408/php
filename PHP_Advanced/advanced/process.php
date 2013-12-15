@@ -102,6 +102,7 @@
 	}
 	else
 	{
+		unset($_SESSION['error']);
 		header('Location: success.php');
 		exit;
 	}
